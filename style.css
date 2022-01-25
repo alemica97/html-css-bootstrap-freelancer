@@ -1,5 +1,6 @@
 .ms_nav-bkc{
     background-color: #2C3E50;
+    color: white;
     min-height: 30px;
 }
 
@@ -8,10 +9,13 @@
     min-height: 200px;
 }
 
-
+header section, main{
+    padding: 20px 0;
+}
 /* debug */
 .debug .row{
     border: 1px solid black;
+    padding: 5px;
 }
 
 .debug [class*="col"]{
