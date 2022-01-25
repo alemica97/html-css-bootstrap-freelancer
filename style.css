@@ -1,10 +1,15 @@
 .ms_dark-bkc{
     background-color: #2C3E50;
+    color: white;
+}
 
+.ms_darker-bkc{
+    background-color: #3A546D;
+    color: white;
 }
 
 nav{
-    color: white;
+    
     min-height: 30px;
 }
 
@@ -25,6 +30,13 @@ nav{
     min-height: 180px;
 }
 
+.ms_contact-height{
+    min-height: 250px;
+}
+
+.ms_footer-height{
+    min-height: 100px;
+}
 /* debug */
 .debug .row{
     border: 1px solid black;
