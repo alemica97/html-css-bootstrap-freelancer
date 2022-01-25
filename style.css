@@ -1,0 +1,20 @@
+.ms_nav-bkc{
+    background-color: #2C3E50;
+    min-height: 30px;
+}
+
+.ms_header-bkc{
+    background-color: #1ABC9C;
+    min-height: 200px;
+}
+
+
+/* debug */
+.debug .row{
+    border: 1px solid black;
+}
+
+.debug [class*="col"]{
+    border: 1px solid red;
+    min-height: 15px;
+}
