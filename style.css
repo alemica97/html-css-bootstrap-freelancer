@@ -1,17 +1,30 @@
-.ms_nav-bkc{
+.ms_dark-bkc{
     background-color: #2C3E50;
+
+}
+
+nav{
     color: white;
     min-height: 30px;
 }
 
-.ms_header-bkc{
-    background-color: #1ABC9C;
+.ms_header-height{
     min-height: 200px;
 }
 
-header section, main{
-    padding: 20px 0;
+.ms_green-bkg{
+    background-color: #1ABC9C;
+
 }
+
+.ms_portfolio-height{
+    min-height: 350px;
+}
+
+.ms_about-height{
+    min-height: 180px;
+}
+
 /* debug */
 .debug .row{
     border: 1px solid black;
