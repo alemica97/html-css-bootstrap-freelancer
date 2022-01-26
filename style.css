@@ -60,7 +60,7 @@ nav .list-nav{
     font-weight: 600;
 }
 
-#jumbo{
+#jumbo, #about{
     color: white;
 }
 
@@ -84,6 +84,10 @@ nav .list-nav{
 
 .star > i{
     margin: 0 10px;
+}
+
+.star{
+    margin-bottom: 10px;
 }
 
 #jumbo .list-jumbo li{
@@ -130,6 +134,14 @@ nav .list-nav{
     overflow: hidden;
 }
 
+#about .about-description{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#about .btn i{
+    margin-right: 5px;
+}
 /* debug */
 .debug .row{
     border: 1px solid black;
