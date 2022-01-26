@@ -134,6 +134,11 @@ nav .list-nav{
     overflow: hidden;
 }
 
+#about .container .row:nth-child(2){
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 #about .about-description{
     font-size: 14px;
     font-weight: 400;
@@ -142,6 +147,20 @@ nav .list-nav{
 #about .btn i{
     margin-right: 5px;
 }
+
+#contact .container .row:nth-child(2){
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#contact .btn{
+    background-color: #1ABC9C;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+
 /* debug */
 .debug .row{
     border: 1px solid black;
