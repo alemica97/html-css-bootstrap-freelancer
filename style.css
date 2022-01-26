@@ -6,6 +6,15 @@ img{
     max-width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.mb-2 {
+    margin-bottom: 0px!important;
+}
+
 .ms_dark-bkc{
     background-color: #2C3E50;
     color: white;
@@ -14,15 +23,6 @@ img{
 .ms_darker-bkc{
     background-color: #3A546D;
     color: white;
-}
-
-header {
-    padding: 10px 0;
-}
-
-nav{
-    
-    min-height: 30px;
 }
 
 .ms_header-height{
@@ -58,6 +58,7 @@ nav .list-nav{
     margin-bottom: 0;
     font-size: 10px;
     font-weight: 600;
+    color: white;
 }
 
 #jumbo, #about{
@@ -132,6 +133,31 @@ nav .list-nav{
     max-height: 100%;
     border-radius: 5px;
     overflow: hidden;
+    position: relative;
+}
+
+#portfolio .portfolio-card .plus > i{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 10;
+}
+
+#portfolio .portfolio-card .plus{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(26, 188, 156, 0.7);
+    display: none;
+}
+
+#portfolio .portfolio-card:hover .plus{
+    display: block;
 }
 
 #about .container .row:nth-child(2){

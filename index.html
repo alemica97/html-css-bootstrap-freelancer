@@ -11,26 +11,48 @@
 </head>
 <body>
 
-    <header class="ms_dark-bkc">  
-
-        <nav class="container py-1">
+    <header>  
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #2C3E50;">
+            <div class="container">
+              <a class="navbar-brand" href="#"><span class="text-uppercase fs-6 ms_font-weight">start bootstrap</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="list-nav navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+       
+        <!-- <nav class="container py-1">
             <div class="row justify-content-between align-items-center">
                 <div class="col-auto">
                     <span class="text-uppercase fs-6 ms_font-weight">start bootstrap</span>
                 </div>
                 <div class="col-auto">
                     <ul class="list-nav d-flex gap-3 text-uppercase">
-                        <li>Portfolio</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> -->
 
     </header>
 
     <main>
+        <!-- jumbotron prima sezione del main  -->
         <section id="jumbo" class="ms_green-bkg ms_header-height py-4">
 
             <div class="container">
@@ -53,7 +75,7 @@
             </div>
 
         </section>
-
+        <!-- seconda sezione del main, il portfolio con le varie card responsive  -->
         <section id="portfolio" class="py-5">
 
             <div class="container">
@@ -70,34 +92,52 @@
 
                 <div class="row g-3">
                     <div class="col-12 col-sm-6 col-md-4">
-                        <div class="portfolio-card rounded-3">
-                            <img src="img/cabin.png">
+                        <div class="portfolio-card ">
+                            <img src="img/cabin.png" class="rounded-3">
+                            <div class="plus">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <div class="portfolio-card rounded-3">
-                            <img src="img/cake.png">
+                        <div class="portfolio-card">
+                            <img src="img/cake.png" class="rounded-3">
+                            <div class="plus">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <div class="portfolio-card rounded-3">
-                            <img src="img/circus.png">
+                        <div class="portfolio-card">
+                            <img src="img/circus.png" class="rounded-3">
+                            <div class="plus">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <div class="portfolio-card rounded-3">
-                            <img src="img/game.png">
+                        <div class="portfolio-card">
+                            <img src="img/game.png" class="rounded-3">
+                            <div class="plus">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <div class="portfolio-card rounded-3">
-                            <img src="img/safe.png">
+                        <div class="portfolio-card">
+                            <img src="img/safe.png" class="rounded-3">
+                            <div class="plus">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
                         
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <div class="portfolio-card rounded-3">
-                            <img src="img/submarine.png">
+                        <div class="portfolio-card">
+                            <img src="img/submarine.png" class="rounded-3">
+                            <div class="plus">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
                         
                     </div>
@@ -106,6 +146,7 @@
 
         </section>
 
+        <!-- terza sezione del main, la seconda riga ho preferito dividerla in due col piuttosto che in una separando il testo  -->
         <section id="about" class="ms_green-bkg py-5">
 
             <div class="container">
@@ -139,6 +180,7 @@
             </div>
         </section>
 
+        <!-- ultima sezione del main con i vari input e un bottone finale  -->
         <section id="contact" class="py-4">
             <div class="container">
 
@@ -228,5 +270,8 @@
             </div>
         </section>
     </footer>
+
+    <!-- java  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
