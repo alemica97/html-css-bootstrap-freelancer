@@ -160,14 +160,30 @@ nav .list-nav{
     margin-left: 50px;
 }
 
-
-/* debug */
-.debug .row{
-    border: 1px solid black;
+.footer-title{
+    font-size: 12px;
 }
 
-.debug [class*="col"]{
-    border: 1px solid red;
-    min-height: 15px;
+footer .row .footer-paragraph{
+    font-size: 12px;
 }
 
+#highlighted-foot{
+    color: #1ABC9C;
+}
+.footer-list li{
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+}
+
+.footer-list{
+    font-size: 12px;
+    padding: 0;
+    margin-bottom: 0;
+    column-gap: 5px;
+}
+
+.copyright{
+    font-size: 10px;
+}
