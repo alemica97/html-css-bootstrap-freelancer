@@ -16,6 +16,10 @@ img{
     color: white;
 }
 
+header {
+    padding: 10px 0;
+}
+
 nav{
     
     min-height: 30px;
@@ -52,8 +56,12 @@ nav .ms_font-weight{
 
 nav .list-nav{
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
+}
+
+#jumbo{
+    color: white;
 }
 
 #jumbo img{
@@ -65,16 +73,12 @@ nav .list-nav{
     margin-bottom: 0;
 }
 
-#jumbo{
-    color: white;
-}
-
-#jumbo .star::before, #jumbo .star::after{
+.star::before, .star::after{
     content: "";
     display: inline-block;
     width: 100px;
     height: 2px;
-    background-color: white;
+    background-color: currentColor;
     border-radius: 999px;
 }
 
@@ -115,6 +119,17 @@ nav .list-nav{
     font-weight: 400;
     white-space: nowrap;
 }
+
+#portfolio{
+    color: black;
+}
+
+#portfolio .portfolio-card{
+    max-height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
 /* debug */
 .debug .row{
     border: 1px solid black;
