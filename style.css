@@ -57,11 +57,39 @@ nav .list-nav{
 }
 
 #jumbo img{
-    max-width: 227px;
+    max-width: 160px;
+    padding: 10px;
+}
+
+#jumbo h1{
+    margin-bottom: 0;
 }
 
 #jumbo{
     color: white;
+}
+
+#jumbo .star::before, #jumbo .star::after{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    border-radius: 999px;
+}
+
+.star > i{
+    margin: 0 10px;
+}
+
+#jumbo .list-jumbo li:nth-child(2)::after, 
+#jumbo .list-jumbo li:nth-child(2)::before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 1px;
+    background-color: white;
+    margin: 0 5px;
 }
 /* debug */
 .debug .row{
